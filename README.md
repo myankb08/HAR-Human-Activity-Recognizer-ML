@@ -18,7 +18,7 @@ The model is built upon the following key aspects and observations in the datase
 1. Plot the waveform for data from each activity class. Are you able to see any difference/similarities between the activities?  Do you think the model will be able to classify the activities based on the data?
 
 <div align="center" >
-<img src="Results/waveform1.png" width=800px>
+<img src="results/waveform1.png" width=800px>
 </div>
 
 From the above plots, we can easily differentiate between the static activities (like laying, standing, and sitting) and dynamic activities (like walking, walking upstairs, and walking downstairs). This is because in dynamic activities, the variance seen is greater. Also, among activities belonging to the same class there are alot of similarities in the trends of the time series data. The model might be able to classify the activities as per their classes but further classification may require some advanced techniques (like hyperparameters tuning, etc.).
